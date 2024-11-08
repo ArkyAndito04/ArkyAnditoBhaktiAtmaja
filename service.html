@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our graphic design services, including logo design, web design, and print design.">
+    <title>Our Services - Graphic Design</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .service-icon {
+            font-size: 3rem;
+            color: #007bff;
+        }
+        .service-card {
+            margin-bottom: 30px; 
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+        .service-image {
+            width: 100%;
+            height: auto; 
+            border-radius: 8px;
+        }
+        .btn-custom {
+            margin-top: 15px;
+        }.navbar-brand {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">MyDesignPro</a>
+        <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="service.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container my-5" id="services">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4 text-center service-card">
+                <img src="https://www.filemagz.com/wp-content/uploads/2022/03/monogram-1140x677.png" height="350" width="250" alt="Logo Design" class="service-image">
+                <i class="fas fa-paint-brush service-icon"></i>
+                <h3>Logo Design</h3>
+                <p>Creating unique and memorable logos that represent your brand.</p>
+                <a href="#" class="btn btn-primary btn-custom">Learn More</a>
+            </div>
+            <div class="col-md-4 text-center service-card">
+                <img src="https://www.jagoanhosting.com/blog/wp-content/uploads/2023/07/desain-web-wedding.png" height="350" width="250" alt="Web Design" class="service-image">
+                <i class="fas fa-laptop service-icon"></i>
+                <h3>Web Design</h3>
+                <p>Designing responsive and visually appealing websites.</p>
+                <a href="#" class="btn btn-primary btn-custom">Learn More</a>
+            </div>
+            <div class="col-md-4 text-center service-card">
+                <img src="https://laysander.com/wp-content/uploads/2023/08/5.-Triangle-Pop-Display-Berikan-Informasi-Perusahaan.jpg" height="350" width="250" alt="Print Design" class="service-image">
+                <i class="fas fa-print service-icon"></i>
+                <h3>Print Design</h3>
+                <p>Designing brochures, business cards, and other print materials.</p>
+                <a href="#" class="btn btn-primary btn-custom">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
